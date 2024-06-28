@@ -1,8 +1,6 @@
-let color = prompt("textcolor kriting")
-let bgcolor = prompt("bgcolor kriting")
+let color = prompt("text color kiriting");
+let bgcolor = prompt("beckground-color kiriting");
 
-let body = document.querySelector("body")
-let text = document.querySelector("p")
+let body = document.querySelector("body");
 
-body.style =`color: ${color}`
-text.style =`Background-color: ${bgcolor}`
+body.style = color: ${color}; background-color: ${bgcolor}
